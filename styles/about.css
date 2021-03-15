@@ -1,0 +1,226 @@
+/* Global */
+html,
+body {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  overflow: auto;
+  background-color: #ffffff98;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.topnav {
+  min-height: 100%;
+  position: relative;
+  background-image: url(/images/texture3.jpg);
+  background-size: cover;
+  background-color: #c9c9c9;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  word-spacing: 9vw;
+}
+
+.topnav > a img {
+  margin-bottom: 0 auto;
+  width: 28vw;
+  margin-left: 6vw;
+}
+
+.topiconlink {
+  color: #00323e;
+  opacity: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: 5.5vw;
+  bottom: 3vw;
+  left: 15vw;
+}
+
+.topiconlink:hover {
+  font-size: 6vw;
+  opacity: 80%;
+}
+
+.bottomnav {
+  background-color: #063e4b;
+  padding-top: 1%;
+  padding-bottom: 1px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 0.2vw solid #ece7e7;
+  box-shadow: 0 3px 2px -2px rgba(128, 128, 128, 0.753);
+}
+
+.bottomnav > ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.bottomnavlinks {
+  color: #e6e6e6;
+  opacity: 100%;
+  text-decoration: none;
+  font-size: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 3.6vw;
+  padding-bottom: 3vw;
+  padding-right: 3.7vw;
+  padding-left: 3.7vw;
+  margin-right: 3.9vw;
+  margin-left: -3vw;
+}
+
+.bottomnavlinks:hover {
+  color:  #ffffff;
+  text-decoration: underline;
+}
+
+.activebottomnav {
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+main {
+  overflow: hidden;
+  background-image: url(/images/about-mobile.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100vw;
+  height: 91vw;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 50vw;
+}
+
+footer {
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  clear: both;
+  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #063e4b;
+  color: #e6e6e6;
+  height: 20.5vw;
+  padding-bottom: 1vw;
+  text-align: left;
+  border-top: 0.2vw solid #ece7e7;
+  box-shadow: -2px 0 3px 1px rgba(128, 128, 128, 0.753);
+}
+
+footer > img {
+  float: left;
+  width: 17vw;
+  padding-top: 3vw;
+  margin-left: 5vw;
+}
+
+
+.footerlinks {
+  display: inline-block;
+  text-decoration: none;
+  color: #e6e6e6;
+  text-align: left;
+  list-style-type: none;
+  font-size: 3vw;
+  margin-left: 1vw;
+  line-height: 5vw;
+}
+
+.footerlinks:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footericonstext {
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+  margin-left: 0vh;
+  font-size: 3vw;
+  line-height: 5vw;
+}
+
+.fa-envelope {
+  background-color: #e6e6e6;
+  padding: 3.5vw;
+  font-size: 7vw;
+  border-radius: 50%;
+  color: #063e4b;
+  position: fixed;
+  display: inline-block;
+  right: 1vw;
+  bottom: 15vw;
+  text-decoration: none;
+}
+
+
+/**************** ABOUT *************/
+
+.maintext {
+  background-color: rgba(255, 255, 255, 0.568);
+  padding-bottom: 0.1vw;
+  padding-top: 3vw;
+  width: 100%;
+}
+
+.maintext > h1 {
+  text-align: center;
+  font-size: 13vw;
+  font-family: "roboto slab", 'Courier New', Courier, monospace;
+  font-weight: lighter;
+  color: #00323ed3;
+  letter-spacing: 2vw;
+  margin-bottom: 2vw;
+}
+
+.maintext > p {
+  font-size: 3vw;
+  text-align: left;
+  margin-left: 15vw;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  line-height: 5vw;
+  color: #00323E;
+}
+
+.maintext > h2 {
+  color: #00323ed3;
+  text-align: center;
+  font-size: 3.5vw;
+  font-weight: 100;
+  font-family: "roboto slab", 'Courier New', Courier, monospace;
+  margin-top: 5vw;
+}
+
+
+
+
+
+/***** DESKTOP *******
+
+main {
+  overflow: hidden;
+  background-image: url(/images/about.jpg);
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 40vh;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: left top;
+}

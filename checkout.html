@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3b26841a4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/3b26841a4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/checkout.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <link rel="stylesheet" href="styles/checkout2.css" />
+    <meta name="description" content="Rainydays | Checkout" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="topnav">
+        <a href="index.html"
+          ><img src="images/logo.png" alt="Rainydays logo"
+        /></a>
+        <a href="search.html" class="topiconlink"
+          ><i class="fas fa-search"></i
+        ></a>
+        <a href="login.html" class="topiconlink"><i class="fas fa-user"></i></a>
+        <a href="shoppingbag.html" class="topiconlink"
+          ><i class="fas fa-shopping-cart"></i
+        ></a>
+      </nav>
+      <nav class="bottomnav">
+        <ul>
+          <li><a href="index.html" class="bottomnavlinks">Home</a></li>
+          <li>
+            <a href="shop.html" class="bottomnavlinks">Shop</a>
+          </li>
+          <li><a href="about.html" class="bottomnavlinks">About</a></li>
+          <li><a href="contact.html" class="bottomnavlinks">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <a href="contact.html" class="faenvelope"><i class="far fa-envelope"></i></a>
+    <main>
+      <div class="breadcrumbs">
+        <a href="shoppingbag.html" class="breadcrumbs">
+          <p class="after">Shopping bag</p></a
+        >
+        <p class="after active">Checkout</p>
+        <p>Order confirmation</p>
+      </div>
+
+      <div class="maintext">
+        <h1>Checkout</h1>
+      </div>
+
+      <div class="customerinfo"></div>
+
+      <fieldset>
+        <legend><p>Customer information</p></legend>
+        <div class="group">
+          <label>First name</label>
+          <input type="text" name="firstname" />
+        </div>
+        <div class="group">
+          <label>Last name</label>
+          <input type="text" name="lastname" />
+        </div>
+
+        <div class="group">
+          <label>E-mail</label>
+          <input type="text" name="e-mail" />
+        </div>
+
+        <div class="group">
+          <label>Phone number</label>
+          <input type="text" name="phonenumber" />
+        </div>
+
+        <div class="group">
+          <label>Delivery address</label>
+          <input type="text" name="deliveryadress" />
+        </div>
+
+        <div class="small">
+          <label>Postal code</label>
+          <input class="small" type="text" name="postalcode" />
+        </div>
+
+        <div class="bigger">
+          <label>Town</label>
+          <input class="bigger" type="text" name="town" />
+        </div>
+      </fieldset>
+
+      <div class="wrapper">
+        <h2>Payment method</h2>
+
+        <label class="container"
+          >Credit card <input type="radio" name="payment"
+        /></label>
+
+        <label class="container"
+          >Paypal <input type="radio" name="payment"
+        /></label>
+
+        <label class="container"
+          >Invoice <input type="radio" name="payment"
+        /></label>
+      </div>
+
+      <div class="wrapper">
+        <h2>Delivery method</h2>
+
+        <label class="containersmall"
+          >Homedelivery <input type="radio" name="payment"
+        /></label>
+
+        <label class="container text"
+          >Mailbox <input type="radio" name="payment"
+        /></label>
+
+        <label class="container text"
+          >Post office <input type="radio" name="payment"
+        /></label>
+      </div>
+
+      <div class="ordersummary">
+        <h2>Order summary</h2>
+        <div class="box">
+        <p>
+          <span class="bold">Product:</span> Rainjacket<span class="italic">
+            (M, Blue)</span
+          >
+        </p></div>
+
+        <div class="box">
+        <p><span class="bold">Item:</span> 1</p></div>
+
+        <div class=box>
+        <p><span class="bold">Payment method:</span> Credit card</p></div>
+
+        <div class="box">
+        <p>
+          <span class="bold">Delivery:</span> Home delivery<span class="italic">
+            (2-4 days)</span
+          >
+        </p></div>
+        <p class="total bold">Total: <span class="total2">319 kr</span></p>
+      </div>
+
+      <a href="orderplaced.html" class="buttonlink"
+      ><div class="button">Place order</div></a
+    >
+  </div>
+
+
+
+    </main>
+    <footer>
+      <img src="images/logo2.png" alt="Rainydays logo" />
+      <ul class="footerlinks">
+        <li><a href="shop.html" class="footerlinks">Shop</a></li>
+        <li><a href="contact.html" class="footerlinks">Contact us</a></li>
+        <li><a href="about.html" class="footerlinks">About us</a></li>
+      </ul>
+      <ul class="footericonstext">
+        <li>Privacy policy</li>
+        <li>Terms & conditions</li>
+        <li>Shipping information</li>
+      </ul>
+      <div class="footerbottom"></div>
+    </footer>
+  </body>
+</html>

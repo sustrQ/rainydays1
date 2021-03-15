@@ -1,0 +1,467 @@
+/* Global */
+html,
+body {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  overflow: auto;
+  background-color: #ffffff98;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.topnav {
+  min-height: 100%;
+  position: relative;
+  background-image: url(/images/texture2.jpg);
+  background-size: cover;
+  background-color: #c9c9c9;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  word-spacing: 9vw;
+}
+
+.topnav > a img {
+  margin-bottom: 0 auto;
+  width: 28vw;
+  margin-left: 6vw;
+}
+
+.topiconlink {
+  color: #00323e;
+  opacity: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: 5.5vw;
+  bottom: 3vw;
+  left: 15vw;
+}
+
+.topiconlink:hover {
+  font-size: 6vw;
+  opacity: 80%;
+}
+
+.bottomnav {
+  background-color: #063e4b;
+  padding-top: 1%;
+  padding-bottom: 1px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 0.2vw solid #ece7e7;
+  box-shadow: 0 3px 2px -2px rgba(128, 128, 128, 0.753);
+}
+
+.bottomnav > ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.bottomnavlinks {
+  color: #e6e6e6;
+  opacity: 100%;
+  text-decoration: none;
+  font-size: 100%;
+  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+  padding-top: 3.6vw;
+  padding-bottom: 3vw;
+  padding-right: 3.7vw;
+  padding-left: 3.7vw;
+  margin-right: 3.9vw;
+  margin-left: -3vw;
+}
+
+.bottomnavlinks:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.activebottomnav {
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+main {
+  overflow: hidden;
+  background-color: #ffffff;
+  background-size: 100vw;
+  height: 100vw;
+  background-position: bottom;
+  padding-bottom: 190%;
+}
+
+footer {
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  clear: both;
+  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #063e4b;
+  color: #e6e6e6;
+  height: 20.5vw;
+  padding-bottom: 1vw;
+  text-align: left;
+  border-top: 0.2vw solid #ece7e7;
+  box-shadow: -2px 0 3px 1px rgba(128, 128, 128, 0.753);
+}
+
+footer > img {
+  float: left;
+  width: 17vw;
+  padding-top: 3vw;
+  margin-left: 5vw;
+}
+
+.footerlinks {
+  display: inline-block;
+  text-decoration: none;
+  color: #e6e6e6;
+  text-align: left;
+  list-style-type: none;
+  font-size: 3vw;
+  margin-left: 1vw;
+  line-height: 5vw;
+}
+
+.footerlinks:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footericonstext {
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+  margin-left: 0vh;
+  font-size: 3vw;
+  line-height: 5vw;
+}
+
+.fa-envelope {
+  background-color: #e6e6e6;
+  padding: 3.5vw;
+  font-size: 7vw;
+  border-radius: 50%;
+  color: #063e4b;
+  position: fixed;
+  display: inline-block;
+  right: 1vw;
+  bottom: 15vw;
+  text-decoration: none;
+}
+
+/**************** CONTACT *************/
+
+.maintext {
+  color: #536b70;
+  padding-bottom: 2vw;
+  padding-top: 3vw;
+}
+
+.maintext > h1 {
+  letter-spacing: 2vw;
+  color: #00323ed3;
+  text-align: center;
+  font-size: 13vw;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-weight: lighter;
+  margin-bottom: 2vw;
+}
+
+.maintext > p {
+  color: #00323e;
+  margin-top: 0;
+  text-align: left;
+  font-size: 3.5vw;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  line-height: 6vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+/** FORM 0 */
+
+fieldset {
+  width: 70vw;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 0.1vw solid #cfcfcf;
+  padding-left: 0.5vw;
+  padding-right: 1vw;
+  margin-bottom: 9vw;
+}
+
+legend > p {
+  font-family: "roboto slab";
+  color: #3f6168;
+  text-align: center;
+  font-size: 3.5vw;
+  position: relative;
+  font-weight: lighter;
+  background: linear-gradient(10deg, rgba(255, 255, 255, 255) 2%, #ffffff 2%);
+}
+
+legend {
+  margin: 0 auto;
+  margin-bottom: 3vw;
+}
+
+input {
+  width: 70vw;
+  margin-left: -19vw;
+  vertical-align: top;
+  display: inline-block;
+  height: 7vw;
+  background-color: #f3f3f3;
+  border: 0.1vw solid #d3d3d3;
+}
+
+label {
+  display: inline-block;
+  height: 7vw;
+  line-height: 10vw;
+  position: relative;
+  margin: 0 auto;
+  font-size: 2.5vw;
+  bottom: 3vw;
+  margin-left: 0.5vw;
+  color: #00323e;
+  font-family: "roboto slab";
+}
+
+.group > label {
+  width: 40vw;
+  position: relative;
+  left: 23vw;
+  display: inline-block;
+  margin-left: -10vw;
+}
+
+input[type="text"] {
+  font-size: 3vw;
+  padding-top: 4vw;
+}
+
+.group {
+  display: flex;
+  margin-bottom: 1vw;
+  margin-left: -10vw;
+}
+
+.small {
+  display: inline-block;
+  width: 33vw;
+  float: right;
+}
+
+.small > input .bigger {
+  width: 6vw;
+}
+
+.bigger > input {
+  width: 35vw;
+  float: right;
+  margin-right: 2vw;
+}
+
+.bigger > label {
+  position: relative;
+  left: 2vw;
+}
+
+/* payment */
+
+.wrapper {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 70.5vw;
+  border: 0.1vw solid #cfcfcf;
+  padding-left: 0.7vw;
+  padding-right: 1vw;
+  margin-bottom: 9vw;
+  padding-bottom: -10vw !important;
+}
+
+.wrapper > h2 {
+  top: 15vw;
+  text-align: center;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-size: 3.5vw;
+  color: #3f6168;
+  margin-bottom: 6.5vw;
+  margin-top: -2vw;
+  background: linear-gradient(10deg, rgba(255, 255, 255, 255) 2%, #ffffff 2%);
+  width: 30vw;
+  margin-left: 15vw;
+}
+
+.container {
+  display: block;
+  color: #536b70;
+  position: relative;
+  border-bottom: 0.2vw solid #ece7e7;
+  background-color: #eeeeee;
+  padding-bottom: 3vw;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+
+input[type="radio"] {
+  transform: scale(1);
+  float: left;
+  left: 20vw;
+  position: relative;
+  top: vw;
+  cursor: pointer;
+}
+
+.containersmall {
+  display: block;
+  color: #536b70;
+  position: relative;
+  border-bottom: 0.2vw solid #ece7e7;
+  background-color: #eeeeee;
+  font-size: 2.7vw;
+  margin-bottom: 2vw;
+  padding-bottom: 3vw;
+}
+
+/* order summary */
+
+.ordersummary {
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 70vw;
+  border: 0.1vw solid #cfcfcf;
+  padding-left: 1.5vw;
+  padding-right: 1vw;
+  margin-bottom: 9vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ordersummary > h2 {
+  top: 15vw;
+  text-align: center;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-size: 3.5vw;
+  color: #3f6168;
+  margin-bottom: 6.5vw;
+  margin-top: -2vw;
+  background: linear-gradient(10deg, rgba(255, 255, 255, 255) 2%, #ffffff 2%);
+  width: 30vw;
+  margin-left: 15vw;
+}
+
+.box > p {
+  margin-left: 2vw;
+  font-size: 3vw;
+}
+
+.box {
+  border-bottom: 0.2vw solid #ece7e7;
+  margin-top: 5vw;
+}
+
+.total {
+  margin-left: 2vw;
+  margin-top: 3vw;
+  font-size: 3.5vw;
+}
+
+.total2 {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+input[type="textarea"] {
+  padding-bottom: 25vw;
+  padding-top: 5vw;
+  font-size: 3.5vw;
+}
+
+input[type="text"]::placeholder {
+  font-size: 2.5vw;
+  padding-top: 2vw;
+  padding-left: 2vw;
+  font-style: italic;
+}
+
+/*****/
+
+.buttonlink {
+  text-decoration: none;
+}
+.button {
+  background-color: #00323e;
+  color: #e6e6e6;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  font-size: 3.5vw;
+  position: relative;
+  bottom: 13.5vw;
+  left: 23.1vw;
+  width: 25vw;
+  margin: 0 auto;
+  margin-top: 5vw;
+  margin-bottom: -13vw;
+}
+
+.button:hover {
+  opacity: 60%;
+  letter-spacing: 1vw;
+}
+
+/* contact */
+
+.contact {
+  margin-top: 20vw;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-bottom: 25vw;
+}
+
+.contact > h2 {
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-size: 5vw;
+  color: #063e4b;
+}
+
+.contact > p {
+  font-size: 3.5vw;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.adress {
+  margin-top: 20vw;
+  margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 3.5vw;
+}

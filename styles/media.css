@@ -1,0 +1,77 @@
+@media only screen and (min-width: 1200px) {
+  /* GLOBAL */
+
+  .topnav {
+    border-bottom: 0.3vw solid #00323e70;
+    box-shadow: 0 3px 2px -2px rgba(128, 128, 128, 0.753);
+  }
+
+  .topnav > a img {
+    width: 9vw;
+    background-image: url(/images/texture3.jpg);
+    background-size: cover;
+  }
+
+  .topiconlink {
+    font-size: 1.9vw;
+    left: 57vw;
+    margin-right: -5vw;
+    bottom: 1.7vw;
+  }
+
+  .fa-shopping-cart {
+    font-size: 1.9vw;
+  }
+
+  .topiconlink:hover {
+    font-size: 2.6vw;
+  }
+
+  .bottomnav {
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    position: relative;
+    bottom: 5vw;
+    background-color: #ffffff00;
+    width: 57vw;
+    border-bottom: 0;
+    box-shadow: 0 0;
+    left: 23vw;
+  }
+
+  .bottomnavlinks {
+    font-size: 1.1vw;
+    bottom: 30vw;
+    font-weight: bold;
+    color: #063e4b;
+    font-family: verdana;
+    padding-top: 3.6vw;
+    padding-bottom: 3vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-right: 6vw;
+    margin-left: -1vw;
+  }
+
+  /* footer */
+
+  footer > img {
+    width: 9vw;
+  }
+
+  .footerlinks {
+    font-size: 1.5vw;
+    margin-left: 7vw;
+  }
+
+  .footericonstext {
+    font-size: 1.5vw;
+    margin-left: 15vw;
+  }
+
+  .fa-envelope {
+    font-size: 3vw;
+    padding: 1.9vw;
+    bottom: 1vw;
+  }
+}

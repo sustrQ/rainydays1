@@ -1,0 +1,504 @@
+/* Global */
+html,
+body {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  overflow: auto;
+  background-color: #ffffff98;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+.topnav {
+  min-height: 100%;
+  position: relative;
+  background-image: url(/images/texture2.jpg);
+  background-size: cover;
+  background-color: #c9c9c9;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  word-spacing: 9vw;
+}
+
+.topnav > a img {
+  margin-bottom: 0 auto;
+  width: 28vw;
+  margin-left: 6vw;
+}
+
+.topiconlink {
+  color: #00323e;
+  opacity: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: 5.5vw;
+  bottom: 3vw;
+  left: 15vw;
+}
+
+.topiconlink:hover {
+  font-size: 6vw;
+  opacity: 80%;
+}
+
+/*       */
+
+.fa-stack {
+  opacity: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: 3.5vw;
+  left: -1vw;
+}
+
+.fa-shopping-cart {
+  font-size: 5.5vw;
+  color: #00323e;
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 2px rgb(255, 255, 255),
+    1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+.fa-check {
+  font-size: 3.2vw;
+  color: #ffffff;
+  bottom: 1.5vw;
+  left: 0.6vw;
+}
+
+/*       */
+
+.bottomnav {
+  background-color: #063e4b;
+  padding-top: 1%;
+  padding-bottom: 1px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 0.2vw solid #ece7e7;
+  box-shadow: 0 3px 2px -2px rgba(128, 128, 128, 0.753);
+}
+
+.bottomnav > ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.bottomnavlinks {
+  color: #e6e6e6;
+  opacity: 100%;
+  text-decoration: none;
+  font-size: 100%;
+  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+  padding-top: 3.6vw;
+  padding-bottom: 3vw;
+  padding-right: 3.7vw;
+  padding-left: 3.7vw;
+  margin-right: 3.9vw;
+  margin-left: -3vw;
+}
+
+.bottomnavlinks:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.activebottomnav {
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+main {
+  overflow: hidden;
+  background-image: url(/images/about-mobile.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100vw;
+  height: 91vw;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 50vw;
+}
+
+footer {
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  clear: both;
+  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #063e4b;
+  color: #e6e6e6;
+  height: 20.5vw;
+  padding-bottom: 1vw;
+  text-align: left;
+  border-top: 0.2vw solid #ece7e7;
+  box-shadow: -2px 0 3px 1px rgba(128, 128, 128, 0.753);
+}
+
+footer > img {
+  float: left;
+  width: 17vw;
+  padding-top: 3vw;
+  margin-left: 5vw;
+}
+
+.footerlinks {
+  display: inline-block;
+  text-decoration: none;
+  color: #e6e6e6;
+  text-align: left;
+  list-style-type: none;
+  font-size: 3vw;
+  margin-left: 1vw;
+  line-height: 5vw;
+}
+
+.footerlinks:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footericonstext {
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+  margin-left: 0vh;
+  font-size: 3vw;
+  line-height: 5vw;
+}
+
+.fa-envelope {
+  background-color: #e6e6e6;
+  padding: 3.5vw;
+  font-size: 7vw;
+  border-radius: 50%;
+  color: #063e4b;
+  position: fixed;
+  display: inline-block;
+  right: 1vw;
+  bottom: 15vw;
+  text-decoration: none;
+}
+
+/**************** SHOP *************/
+
+.breadcrumbs {
+  margin: auto 0;
+  text-align: center;
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  font-size: 2.5vw;
+  margin-top: 6vw;
+  margin-bottom: 0;
+  color: #818181;
+  text-decoration: none;
+}
+
+input {
+  display: block;
+}
+
+.breadcrumbs > a:hover {
+  text-decoration: underline;
+}
+
+.after::after {
+  content: ">";
+  margin: 5vw;
+}
+
+.active {
+  opacity: 100%;
+  color: #00323e;
+  font-weight: bold;
+}
+
+.breadcrumbs > p {
+  display: inline;
+  text-align: center;
+}
+
+/*     TEXT ***/
+.maintext {
+  color: #536b70;
+  padding-bottom: 2vw;
+  padding-top: 3vw;
+}
+
+.maintext > h1 {
+  letter-spacing: 1vw;
+  color: #00323ed3;
+  text-align: center;
+  font-size: 7vw;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-weight: lighter;
+  margin-bottom: 10vw;
+}
+
+/*** bag ****/
+
+.shoppingbag {
+  border-top: 0.5vw solid #00323eb9;
+  border-bottom: 0.5vw solid #00323eb9;
+  margin-bottom: 2vw;
+}
+.row1 > img {
+  display: inline-block;
+  width: 29.1vw;
+  float: left;
+  background-color: #e0e0e0;
+}
+
+.row2 {
+  margin-left: 50vw;
+  color: #00323e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 0;
+}
+
+.row2 > h2 {
+  font-size: 7vw;
+  color: #00323e;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.row2 > p {
+  font-size: 3.5vw;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.after2 {
+  content: "/";
+}
+
+.inline {
+  display: inline-block;
+  padding-inline-end: 4vw;
+}
+
+.price {
+  font-size: 3.5vw;
+  color: #c34f4f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.linetext {
+  text-decoration: line-through;
+  color: #777777;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  font-weight: lighter;
+}
+
+/*** */
+
+.underline {
+  margin-left: 55vw;
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+}
+
+.subtotal {
+  display: inline-block;
+  font-size: 3vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+  color: #00323eb9;
+  line-height: 2vw;
+  text-align: left;
+  margin-right: 3vw;
+  font-weight: bold;
+}
+
+.subtotal1 {
+  display: inline-block;
+  text-align: right;
+  font-size: 3.5vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00323eb9;
+  line-height: 2vw;
+}
+
+.total {
+  font-size: 5vw;
+  color: #063e4b;
+  margin-top: 10vw;
+}
+
+/** FORM 0 */
+
+fieldset {
+  width: 60vw;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 0.1vw solid #cfcfcf;
+  padding-left: 1.5vw;
+  padding-right: 1vw;
+  margin-bottom: 9vw;
+  margin-top: 5vw;
+}
+
+legend > h1 {
+  font-family: "roboto slab";
+  color: #3f6168;
+  text-align: center;
+  font-size: 6vw;
+  position: relative;
+  font-weight: lighter;
+  background: linear-gradient(10deg, rgba(255, 255, 255, 255) 2%, #ffffff 2%);
+}
+
+legend {
+  margin: 0 auto;
+  margin-bottom: 6vw;
+}
+
+input {
+  width: 60vw;
+  margin-left: -19vw;
+  vertical-align: top;
+  display: inline-block;
+  height: 7vw;
+  background-color: #f3f3f3;
+  border: 0.1vw solid #d3d3d3;
+}
+
+label {
+  display: inline-block;
+  height: 10vw;
+  line-height: 10vw;
+  position: relative;
+  margin: 0 auto;
+  font-size: 2.5vw;
+  bottom: 3vw;
+  margin-left: 0.5vw;
+  color: #00323e;
+  font-family: "roboto slab";
+}
+
+input[type="text"] {
+  font-size: 3vw;
+  padding-top: 4vw;
+}
+
+.group {
+  display: flex;
+  margin-bottom: 1vw;
+}
+
+.small {
+  display: inline-block;
+  width: 23vw;
+  float: right;
+}
+
+/*****/
+
+.buttonlink {
+  text-decoration: none;
+}
+.button {
+  background-color: #00323e;
+  color: #e6e6e6;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  font-size: 3.5vw;
+  margin-top: 30vw;
+  width: 100%;
+  margin-bottom: 10vw;
+  margin: 0 auto;
+  margin-top: 5vw;
+}
+
+.button:hover {
+  opacity: 60%;
+  letter-spacing: 1vw;
+}
+
+@media only screen and (min-width: 1200px) {
+  main {
+    padding-bottom: 1vw;
+    height: 80vw;
+  }
+
+  .topnav {
+    background-image: url(/images/texture3.jpg);
+  }
+
+  /* Form */
+
+  legend {
+    margin-bottom: 1vw;
+  }
+  fieldset {
+    width: 25vw;
+    margin-top: 0vw;
+  }
+
+  legend > h1 {
+    font-size: 1.8vw;
+  }
+
+  input {
+    width: 25vw;
+    height: 2vw;
+  }
+
+  label {
+    display: inline-block;
+    height: 7vw;
+    font-size: 1vw;
+    margin-bottom: -10vw;
+  }
+
+  input[type="text"]::placeholder {
+    font-size: 1vw;
+    padding-bottom: 2vw;
+  }
+
+  input[type="text"] {
+    padding-bottom: 0vw;
+    font-size: 1.2vw;
+  }
+
+  input[type="textarea"] {
+    padding-bottom: 10vw;
+    font-size: 1.2vw;
+  }
+
+  /* button */
+  .button {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1.4vw;
+    position: relative;
+    top: 0.5vw;
+    left: 0vw;
+    width: 25.3vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin: 0 auto;
+    margin-bottom: 0vw;
+  }
+}

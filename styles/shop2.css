@@ -1,0 +1,50 @@
+@media only screen and (min-width: 1200px) {
+  main {
+    height: 50vw;
+    padding-bottom: 110%;
+  }
+
+  .maintext {
+    margin-top: -5vw;
+  }
+
+  .maintext > h1 {
+    font-size: 3vw;
+    margin-bottom: 0vw;
+  }
+
+  .maintext > p {
+    font-size: 1.2vw;
+    margin-left: -3vw;
+  }
+
+  .row1 {
+    margin-left: 6vw;
+    display: inline-block;
+    margin-right: 9vw;
+  }
+
+  .jacket > img {
+    width: 23vw;
+    margin-top: 3vw;
+  }
+
+  .jacket > h2 {
+    font-size: 3vw;
+  }
+
+  .jacket > p {
+    font-size: 1.5vw;
+  }
+
+  .row2 {
+    margin-left: 9vw;
+  }
+  .row3 {
+    display: inline-block;
+  }
+
+  .row3 > a {
+    text-decoration: none;
+  }
+}

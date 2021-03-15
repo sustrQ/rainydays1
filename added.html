@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3b26841a4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/3b26841a4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/added.css" />
+    <link rel="stylesheet" href="styles/media.css" />
+    <meta name="description" content="Rainydays | Shop" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+
+    <script type="text/javascript">
+      function showImage(imgPath, imgText) {
+        var curImage = document.getElementById("currentImg");
+
+        curImage.src = imgPath;
+        curImage.alt = imgText;
+        curImage.title = imgText;
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="topnav">
+        <a href="index.html"
+          ><img src="images/logo.png" alt="Rainydays logo"
+        /></a>
+        <a href="search.html" class="topiconlink"
+          ><i class="fas fa-search"></i
+        ></a>
+        <a href="login.html" class="topiconlink"><i class="fas fa-user"></i></a>
+        <a href="shoppingbag.html" class="topiconlink"
+          ><i class="fas fa-shopping-cart"></i
+        ></a>
+      </nav>
+      <nav class="bottomnav">
+        <ul>
+          <li><a href="index.html" class="bottomnavlinks">Home</a></li>
+          <li>
+            <a href="shop.html" class="bottomnavlinks activebottomnav">Shop</a>
+          </li>
+          <li><a href="about.html" class="bottomnavlinks">About</a></li>
+          <li><a href="contact.html" class="bottomnavlinks">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <a href="contact.html" class="faenvelope"
+      ><i class="far fa-envelope"></i
+    ></a>
+
+    <main>
+      <div class="imagebox">
+        <img src="images/product/1.jpg" id="currentImg" alt="rainjacket" />
+      </div>
+
+      <ul class="imagepicker">
+        <li>
+          <img
+            src="images/product/1.jpg"
+            alt="rainjacket front"
+            onclick="showImage('images/product/1.jpg');"
+            data-pin-nopin="true"
+          />
+        </li>
+        <li>
+          <img
+            src="images/product/2.jpg"
+            alt="rainjacket side"
+            onclick="showImage('images/product/2.jpg');"
+            data-pin-nopin="true"
+          />
+        </li>
+        <li>
+          <img
+            src="images/product/3.jpg"
+            alt="rainjacket picture"
+            onclick="showImage('images/product/3.jpg');"
+            data-pin-nopin="true"
+          />
+        </li>
+      </ul>
+      <div class="margin">
+        <div class="maintext">
+          <h1>Rain jacket</h1>
+          <h2>319 <span class="linetext">399</span> 20%</h2>
+          <p>
+            This rain jacket is of a sturdy design, made with the most durable
+            materials.
+          </p>
+
+          <form>
+            <select id="number" name="number">
+              <option selected disabled class="choose" class="choose">
+                Qty
+              </option>
+              <option value="xs">1</option>
+              <option value="s">2</option>
+              <option value="m">3</option>
+              <option value="l">4</option>
+              <option value="xl">5</option>
+            </select>
+            <i class="fas fa-sort-down"></i>
+          </form>
+
+          <form>
+            <select id="size" name="size">
+              <option selected disabled class="choose" class="choose">
+                Choose size
+              </option>
+              <option value="xs">XS</option>
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+              <option value="xl">XL</option>
+            </select>
+            <i class="fas fa-sort-down"></i>
+          </form>
+
+          <a href="shoppingbag.html" class="buttonlink"
+            ><div class="button">Added!</div></a
+          >
+          <div class="underbuttontext">
+            <p>Free delivery on all orders</p>
+            <p>2-5 days delivery</p>
+            <p>In stock <span class="green"></span></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <img src="images/logo2.png" alt="Rainydays logo" />
+      <ul class="footerlinks">
+        <li><a href="shop.html" class="footerlinks">Shop</a></li>
+        <li><a href="contact.html" class="footerlinks">Contact us</a></li>
+        <li><a href="about.html" class="footerlinks">About us</a></li>
+      </ul>
+      <ul class="footericonstext">
+        <li>Privacy policy</li>
+        <li>Terms & conditions</li>
+        <li>Shipping information</li>
+      </ul>
+      <div class="footerbottom"></div>
+    </footer>
+  </body>
+</html>

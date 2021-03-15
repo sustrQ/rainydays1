@@ -1,0 +1,246 @@
+/* Global */
+html,
+body {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #ffffff98;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+
+.topnav {
+  min-height: 100%;
+  position: relative;
+  background-image: url(/images/texture2.jpg);
+  background-size: cover;
+  background-color: #c9c9c9;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  word-spacing: 9vw;
+}
+
+.topnav > a img {
+  margin-bottom: 0 auto;
+  width: 28vw;
+  margin-left: 6vw;
+}
+
+.topiconlink {
+  color: #00323e;
+  opacity: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: 5.5vw;
+  bottom: 3vw;
+  left: 15vw;
+}
+
+.topiconlink:hover {
+  font-size: 6vw;
+  opacity: 80%;
+}
+
+.bottomnav {
+  background-color: #063e4b;
+  padding-top: 1%;
+  padding-bottom: 1px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 0.2vw solid #ece7e7;
+  box-shadow: 0 3px 2px -2px rgba(128, 128, 128, 0.753);
+}
+
+.bottomnav > ul li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.bottomnavlinks {
+  color: #e6e6e6;
+  opacity: 100%;
+  text-decoration: none;
+  font-size: 100%;
+  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+  padding-top: 3.6vw;
+  padding-bottom: 3vw;
+  padding-right: 3.7vw;
+  padding-left: 3.7vw;
+  margin-right: 3.9vw;
+  margin-left: -3vw;
+}
+
+.bottomnavlinks:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.activebottomnav {
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+main {
+  overflow: hidden;
+  background-image: url(/images/index-picture-mobile2.jpg);
+  background-repeat: repeat-y;
+  background-color: #e4e4e4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 90vw;
+  padding-bottom: 40vw;
+}
+
+footer {
+  overflow: hidden;
+  /*position: absolute;*/
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  clear: both;
+  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #063e4b;
+  color: #e6e6e6;
+  height: 20.5vw;
+  padding-bottom: 1vw;
+  text-align: left;
+  border-top: 0.2vw solid #ece7e7;
+  box-shadow: -2px 0 3px 1px rgba(128, 128, 128, 0.753);
+}
+
+footer > img {
+  float: left;
+  width: 17vw;
+  padding-top: 3vw;
+  margin-left: 5vw;
+}
+
+.footerlinks {
+  display: inline-block;
+  text-decoration: none;
+  color: #e6e6e6;
+  text-align: left;
+  list-style-type: none;
+  font-size: 3vw;
+  margin-left: 1vw;
+  line-height: 5vw;
+}
+
+.footerlinks:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footericonstext {
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+  margin-left: 0vh;
+  font-size: 3vw;
+  line-height: 5vw;
+}
+
+.fa-envelope {
+  background-color: #e6e6e6;
+  padding: 3.5vw;
+  font-size: 7vw;
+  border-radius: 50%;
+  color: #063e4b;
+  position: fixed;
+  display: inline-block;
+  right: 1vw;
+  bottom: 15vw;
+  text-decoration: none;
+}
+
+/*************** INDEX ************/
+
+.textfrontpage {
+  text-align: center;
+  line-height: 2vw;
+  margin-right: 38vw;
+  margin-top: 10vw;
+  color: #00323e;
+}
+
+.textfrontpage > h1 {
+  color: #f29e46;
+  font-family: "Lobster", "Courier New", Courier, monospace;
+  font-size: 5vw;
+}
+
+.off {
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  color: #00323e;
+  font-weight: lighter;
+  font-size: 3vw;
+}
+
+.textfrontpage > h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 2vw;
+  font-size: 6vw;
+  font-weight: 300;
+}
+
+.textfrontpage > a {
+  color: #00323e;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3vw;
+}
+
+.textfrontpage > p {
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-size: 3.5vw;
+}
+
+p.offer {
+  font-size: 2.5vw;
+}
+
+.textfrontpage > h3 {
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-size: 2vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 7vw;
+  line-height: 3vw;
+}
+
+/*desktop view*/
+/*
+body {
+  overflow: auto;
+  background-image: url(/images/texture-background.jpg);
+  background-repeat: repeat-y;
+  background-color: #e4e4e4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  padding-bottom: 20vw;
+  height: 100vh;
+}
+
+*/

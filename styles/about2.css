@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1200px) {
+  main {
+    height: 10vw;
+    padding-bottom: 70%;
+  }
+
+  .maintext {
+    margin-top: -5vw;
+    width: 100%;
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
+
+  .maintext > h1 {
+    font-size: 3vw;
+    margin-bottom: 0vw;
+  }
+
+  .maintext > p {
+    font-size: 1.2vw;
+    text-align: center;
+  }
+
+  .maintext > h2 {
+    font-size: 2vw;
+  }
+}

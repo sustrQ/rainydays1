@@ -1,0 +1,95 @@
+@media only screen and (min-width: 1200px) {
+  .topnav {
+    background-image: url(/images/texture3.jpg);
+  }
+
+  main {
+    height: 50vw;
+    padding-bottom: 50%;
+  }
+
+  .maintext {
+    margin-top: -5vw;
+  }
+
+  .maintext > h1 {
+    font-size: 3vw;
+    margin-bottom: 0vw;
+  }
+
+  .maintext > p {
+    font-size: 1.2vw;
+    text-align: center;
+  }
+
+  /* Form */
+
+  fieldset {
+    width: 10vw;
+  }
+
+  legend > p {
+    font-size: 1.8vw;
+  }
+
+  input {
+    width: 39vw;
+    height: 1.5vw;
+  }
+
+  label {
+    display: inline-block;
+    height: 7vw;
+    font-size: 1vw;
+    margin-bottom: -10vw;
+  }
+
+  input[type="text"]::placeholder {
+    font-size: 1vw;
+    padding-bottom: 2vw;
+  }
+
+  input[type="text"] {
+    padding-bottom: 0vw;
+    font-size: 1.2vw;
+  }
+
+  input[type="textarea"] {
+    padding-bottom: 10vw;
+    font-size: 1.2vw;
+  }
+
+  /* button */
+  .button {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1.4vw;
+    position: relative;
+    bottom: 5vw;
+    left: 11.7vw;
+    width: 18vw;
+    margin: 0 auto;
+    margin-bottom: -4vw;
+  }
+
+  /* contact */
+
+  .contact {
+    margin-bottom: 15vw;
+    text-align: center;
+  }
+
+  .contact > h2 {
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  .contact > p {
+    font-size: 1.2vw;
+  }
+
+  .adress {
+    text-align: center;
+    font-size: 1.2vw;
+  }
+}

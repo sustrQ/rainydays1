@@ -1,0 +1,50 @@
+@media only screen and (min-width: 1200px) {
+  .topnav {
+    background-image: url(/images/texture3.jpg);
+  }
+  main {
+    margin-top: -4vw;
+    height: 40vw;
+    background-image: url(/images/about-mobile.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .textfrontpage {
+    position: relative;
+    top: 5vw;
+    margin: auto 0;
+  }
+
+  .textfrontpage > h1 {
+    font-size: 4vw;
+  }
+
+  .off {
+    font-size: 3vw;
+  }
+
+  .textfrontpage > h2 {
+    font-size: 3vw;
+    font-weight: 300;
+  }
+
+  .textfrontpage > a {
+    font-size: 2vw;
+  }
+
+  .textfrontpage > p {
+    font-size: 2vw;
+  }
+
+  p.offer {
+    font-size: 1.2vw;
+  }
+
+  .textfrontpage > h3 {
+    font-size: 1vw;
+    color: #000000;
+  }
+}

@@ -1,5 +1,4 @@
-/* Global */
-html,
+Global html,
 body {
   position: relative;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -191,7 +190,7 @@ footer > img {
 
 /**************** SHOP *************/
 
-.breadcrumbs {
+.crumbs {
   margin: auto 0;
   text-align: center;
   font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
@@ -202,8 +201,7 @@ footer > img {
   color: #818181;
   text-decoration: none;
 }
-
-input {
+bread input {
   display: block;
 }
 

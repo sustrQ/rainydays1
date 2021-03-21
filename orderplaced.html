@@ -13,14 +13,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
     <script
       src="https://kit.fontawesome.com/3b26841a4d.js"
       crossorigin="anonymous"
@@ -29,9 +21,10 @@
       src="https://kit.fontawesome.com/3b26841a4d.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles/orderplaced.css" />
-    <link rel="stylesheet" href="styles/media.css" />
-    <meta name="description" content="Rainydays | Order placed" />
+    <link rel="stylesheet" href="styles/checkhout2.css" />
+    <!-- <link rel="stylesheet" href="styles/media.css" />
+    <link rel="stylesheet" href="styles/contact2.css" /> -->
+    <meta name="description" content="Rainydays | Shop" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale-1.0" />
 
@@ -50,87 +43,112 @@
 
   <body>
     <header>
-      <nav class="topnav">
-        <a href="index.html"
-          ><img src="images/logo.png" alt="Rainydays logo"
-        /></a>
-        <a href="search.html" class="topiconlink"
-          ><i class="fas fa-search"></i
-        ></a>
-        <a href="login.html" class="topiconlink"><i class="fas fa-user"></i></a>
-        <a href="shoppingbag.html" class="topiconlink"
-        ><i class="fas fa-shopping-cart"></i
-      ></a>
-      </nav>
-      <nav class="bottomnav">
+      <nav class="navbar">
         <ul>
-          <li><a href="index.html" class="bottomnavlinks">Home</a></li>
           <li>
-            <a href="shop.html" class="bottomnavlinks">Shop</a>
+            <div class="shopnav"><a href="shop.html">Shop</a></div>
           </li>
-          <li><a href="about.html" class="bottomnavlinks">About</a></li>
-          <li><a href="contact.html" class="bottomnavlinks">Contact</a></li>
+          <li>
+            <div class="navbarlogo">
+              <a href="index.html"><img src="images/logo2.png" class="nlogo" /></a>
+            </div>
+          </li>
+          <li class="rightli">
+            <div class="rightside">
+              <ul>
+                <li>
+                  <a href="#"><i class="fas fa-search"></i></a>
+                </li>
+                <li><a href="login.html">Account</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shoppingbag.html">Cart</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </nav>
     </header>
-    <a href="contact.html" class="faenvelope"><i class="far fa-envelope"></i></a>
+
     <main>
-      <div class="breadcrumbs">
-        <a href="shoppingbag.html" class="breadcrumbs">
-          <p class="after">Shopping bag</p></a
-        >
-        <p class="after">Checkout</p>
-        <p class="active">Order confirmation</p>
+      <div class="mainintro">
+      <div class="mainimage"> <img src="/images/cart.jpg">
       </div>
-
-      <div class="maintext">
-        <h1>Order received!</h1>
-        <p>We have sent an order confirmation.</p>
-        <p>Estimated delivery is 2-4 days.</p>
+      <div class="maintexts">
+        <h1>Shopping Cart</h1>
       </div>
+    </div>
 
-   
-      <div class="ordersummary">
-        <h2>Order summary</h2>
-        <div class="box">
-        <p>
-          <span class="bold">Product:</span> Rainjacket<span class="italic">
-            (M, Blue)</span
-          >
-        </p></div>
+    <div class="breadcrumbs">
+      <ul>
+        <li class="after">Shopping bag</li>
+        <li class="after">Checkout</li>
+        <li class="activebread">Order confirmation</li>
+      </ul>
+    </div>
 
-        <div class="box">
-        <p><span class="bold">Item:</span> 1</p></div>
-
-        <div class=box>
-        <p><span class="bold">Payment method:</span> Credit card</p></div>
-
-        <div class="box">
-        <p>
-          <span class="bold">Delivery:</span> Home delivery<span class="italic">
-            (2-4 days)</span
-          >
-        </p></div>
-        <p class="total bold">Total: <span class="total2">319 kr</span></p>
-      </div>
-  </div>
-
-
+    <div class ="received">
+      <h2>Order was received!</h2>
+      <div class="pwrapper">
+      <p>We have sent an order confirmation to the registered e-mail address.</p>
+    </div>
+    </div>
 
     </main>
-    <footer>
-      <img src="images/logo2.png" alt="Rainydays logo" />
-      <ul class="footerlinks">
-        <li><a href="shop.html" class="footerlinks">Shop</a></li>
-        <li><a href="contact.html" class="footerlinks">Contact us</a></li>
-        <li><a href="about.html" class="footerlinks">About us</a></li>
-      </ul>
-      <ul class="footericonstext">
-        <li>Privacy policy</li>
-        <li>Terms & conditions</li>
-        <li>Shipping information</li>
-      </ul>
-      <div class="footerbottom"></div>
-    </footer>
+    <i class="fas fa-envelope fixedenvelope"></i>
+
+
+      <div class="footers">
+        <div class="welcome">
+          <p>
+            Welcome! Rainydays offers a variaty of rainjackets in high quality.
+            Text, text text text.
+          </p>
+        </div>
+        <div class="footerline"></div>
+        <div class="footersymbols">
+          <div class="symbolsbox">
+            <i class="fas fa-truck"></i>
+            <p>Fast shipping</p>
+          </div>
+          <div class="symbolsbox">
+            <i class="fas fa-lock"></i>
+            <p>Secure payment</p>
+          </div>
+          <div class="symbolsbox">
+            <i class="fas fa-box"></i>
+            <p>Free returns</p>
+          </div>
+          <div class="symbolsbox">
+            <i class="fas fa-shopping-bag"></i>
+            <p>Popular products</p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="flexfooter">
+        <div class="logofooter"><img src="/images/logo2.png" /></div>
+        <div class="contact">
+          <div class="footersymbolstwo cursor" onclick="location.href='contact.html'">
+            <i class="fas fa-envelope"></i>
+            <p>Send us a message</p></a>
+          </div>
+          <div class="footersymbolstwo margin">
+            <i class="fab fa-facebook"></i>
+            <p>Follow us on facebook</p></p>
+          </div>
+        </div>
+        <div class="sitemap">
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="shop.html">Women clothing</a></li>
+            <li><a href="shop.html">Men clothing</a></li>
+            <li><a href="shoppingbag.html">Shopping cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Account</a></li>
+          </ul>
+        </div>
+        </div>
+      </footer>
+    <script src="js/confirmation.js"></script>
   </body>
 </html>

@@ -13,14 +13,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
     <script
       src="https://kit.fontawesome.com/3b26841a4d.js"
       crossorigin="anonymous"
@@ -29,118 +21,168 @@
       src="https://kit.fontawesome.com/3b26841a4d.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles/shoppingbag.css" />
-    <link rel="stylesheet" href="styles/media.css" />
-    <meta name="description" content="Rainydays | Shopping bag" />
+    <link rel="stylesheet" href="styles/checkhout2.css" />
+    <meta name="description" content="Rainydays | Shop" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale-1.0" />
 
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 2297392, hjsv: 6 };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
+
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2297392,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
   </head>
 
   <body>
     <header>
-      <nav class="topnav">
-        <a href="index.html"
-          ><img src="images/logo.png" alt="Rainydays logo"
-        /></a>
-        <a href="search.html" class="topiconlink"
-          ><i class="fas fa-search"></i
-        ></a>
-        <a href="login.html" class="topiconlink"><i class="fas fa-user"></i></a>
-        <a href="shoppingbag.html" class="topiconlink"
-          ><i class="fas fa-shopping-cart"></i
-        ></a>
-      </nav>
-      <nav class="bottomnav">
+      <nav class="navbar">
         <ul>
-          <li><a href="index.html" class="bottomnavlinks">Home</a></li>
           <li>
-            <a href="shop.html" class="bottomnavlinks">Shop</a>
+            <div class="shopnav"><a href="shop.html">Shop</a></div>
           </li>
-          <li><a href="about.html" class="bottomnavlinks">About</a></li>
-          <li><a href="contact.html" class="bottomnavlinks">Contact</a></li>
+          <li>
+            <div class="navbarlogo">
+              <a href="index.html"><img src="images/logo2.png" class="nlogo" /></a>
+            </div>
+          </li>
+          <li class="rightli">
+            <div class="rightside">
+              <ul>
+                <li>
+                  <a href="#"><i class="fas fa-search"></i></a>
+                </li>
+                <li><a href="login.html">Account</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shoppingbag.html">Cart</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </nav>
     </header>
-    <a href="contact.html" class="faenvelope"
-      ><i class="far fa-envelope"></i
-    ></a>
+
     <main>
-      <div class="breadcrumbs">
-        <p class="after active">Shopping bag</p>
-        <p class="after">Checkout</p>
-        <p>Order confirmation</p>
+      <div class="mainintro">
+      <div class="mainimage"> <img src="/images/cart.jpg">
       </div>
+      <div class="maintexts">
+        <h1>Shopping Cart</h1>
+      </div>
+    </div>
 
-      <div class="maintext">
-        <h1>Shopping bag</h1>
+    <div class="breadcrumbs">
+      <ul>
+        <li class="after activebread">Shopping bag</li>
+        <li class="after">Checkout</li>
+        <li>Order confirmation</li>
+      </ul>
+    </div>
 
-        <div class="shoppingbag">
-          <div class="row1">
-            <img src="images/product.jpg" alt="rain jacket" />
-          </div>
+  
+    <div class="maintextr">
 
-          <div class="row2">
-            <h2>Rain jacket</h2>
-            <p class="inline"><span class="bold">Size:</span> M</p>
-            <p class="inline"><span class="bold">Color:</span> Blue</p>
-            <form>
-              <select id="number" name="number">
-                <option value="xs">1</option>
-                <option value="s">2</option>
-                <option value="m">3</option>
-                <option value="l">4</option>
-                <option value="xl">5</option>
-              </select>
-              <i class="fas fa-sort-down"></i>
-            </form>
-            <p class="price">319 kr <span class="linetext">399</span> 20%</p>
-          </div>
+      <div class="shoppingbag">
+        <div class="row1">
+          <img src="images/product.jpg" alt="rain jacket" />
         </div>
 
-        <div class="ordersummary">
-          <div class="box">
-            <p><span class="bold">Subtotal:</span> 319 kr</p>
-          </div>
-          <div class="box">
-            <p><span class="bold">Delivery:</span> Free</p>
-          </div>
-          <p class="total bold">Total: <span class="total2">319 kr</span></p>
+        <div class="row2">
+          <h2>Rain jacket</h2>
+          <p class="inline"><span class="bold">Size:</span> M</p>
+          <p class="inline"><span class="bold">Color:</span> Blue</p>
+          <form>
+            <select id="number" name="number">
+              <option value="xs">1</option>
+              <option value="s">2</option>
+              <option value="m">3</option>
+              <option value="l">4</option>
+              <option value="xl">5</option>
+            </select>
+            <i class="fas fa-sort-down"></i>
+          </form>
+          <p>319 kr</p>
         </div>
-
-        <a href="checkout.html" class="buttonlink"
-          ><div class="button">Checkout</div></a
-        >
       </div>
+
+      <div class="ordersummary">
+        <div class="box">
+          <p><span class="bold">Subtotal:</span> 319 kr</p>
+        </div>
+        <div class="box">
+          <p><span class="bold">Delivery:</span> Free</p>
+        </div>
+        <p class="total bold">Total: <span class="total2">319 kr</span></p>
+      </div>
+    </div>
+
+      <a href="checkout.html" class="buttonlinks"
+        ><div class="button">Checkout</div></a
+      >
+    </div>
+
     </main>
-    <footer>
-      <img src="images/logo2.png" alt="Rainydays logo" />
-      <ul class="footerlinks">
-        <li><a href="shop.html" class="footerlinks">Shop</a></li>
-        <li><a href="contact.html" class="footerlinks">Contact us</a></li>
-        <li><a href="about.html" class="footerlinks">About us</a></li>
-      </ul>
-      <ul class="footericonstext">
-        <li>Privacy policy</li>
-        <li>Terms & conditions</li>
-        <li>Shipping information</li>
-      </ul>
-      <div class="footerbottom"></div>
-    </footer>
+    <i class="fas fa-envelope fixedenvelope"></i>
+
+
+      <div class="footers">
+        <div class="welcome">
+          <p>
+            Welcome! Rainydays offers a variaty of rainjackets in high quality.
+            Text, text text text.
+          </p>
+        </div>
+        <div class="footerline"></div>
+        <div class="footersymbols">
+          <div class="symbolsbox">
+            <i class="fas fa-truck"></i>
+            <p>Fast shipping</p>
+          </div>
+          <div class="symbolsbox">
+            <i class="fas fa-lock"></i>
+            <p>Secure payment</p>
+          </div>
+          <div class="symbolsbox">
+            <i class="fas fa-box"></i>
+            <p>Free returns</p>
+          </div>
+          <div class="symbolsbox">
+            <i class="fas fa-shopping-bag"></i>
+            <p>Popular products</p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="flexfooter">
+        <div class="logofooter"><img src="/images/logo2.png" /></div>
+        <div class="contact">
+          <div class="footersymbolstwo cursor" onclick="location.href='contact.html'">
+            <i class="fas fa-envelope"></i>
+            <p>Send us a message</p></a>
+          </div>
+          <div class="footersymbolstwo margin">
+            <i class="fab fa-facebook"></i>
+            <p>Follow us on facebook</p></p>
+          </div>
+        </div>
+        <div class="sitemap">
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="shop.html">Women clothing</a></li>
+            <li><a href="shop.html">Men clothing</a></li>
+            <li><a href="shoppingbag.html">Shopping cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Account</a></li>
+          </ul>
+        </div>
+        </div>
+      </footer>
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
   </body>
 </html>

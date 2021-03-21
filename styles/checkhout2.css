@@ -96,7 +96,7 @@ body {
 
 .mainimage {
   position: relative;
-  bottom: 14vw;
+  bottom: 17vw;
   z-index: -3;
 }
 
@@ -277,7 +277,7 @@ legend {
 button {
   position: relative;
   justify-content: center;
-  width: 100%;
+  width: 33%;
   align-items: center;
   text-align: center;
   font-size: 1.1vw;
@@ -285,12 +285,15 @@ button {
   font-family: "helvetica";
   letter-spacing: 0.2vw;
   border-radius: 1vw;
-  color: white;
+  color: rgb(0, 0, 0);
   box-shadow: none;
   cursor: pointer;
   padding: 0.7vw 0.1vw 0.7vw 0.1vw;
-  background-color: rgba(46, 5, 5, 0.397);
-  border: 0.1px solid white;
+  background-color: rgba(255, 255, 255, 0.397);
+  border: 0.1px solid rgba(0, 0, 0, 0.26);
+  top: 5vw;
+  left: 33vw;
+  margin-bottom: 20vw;
 }
 
 /*****/
@@ -470,5 +473,170 @@ footer {
   display: inline-block;
   right: 1vw;
   bottom: 25vw;
+  text-decoration: none;
+}
+
+/** */
+
+.breadcrumbs {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.1vw;
+  bottom: 20vw;
+  position: relative;
+}
+
+.breadcrumbs > ul > li {
+  display: inline-block;
+  margin-left: 1.1vw;
+  margin-right: 1.1vw;
+}
+
+.bgone {
+  background-color: rgb(206, 206, 206);
+}
+
+.after::after {
+  content: ">";
+  margin: 2vw;
+}
+
+.activebread {
+  font-weight: bold;
+}
+
+fieldset {
+  width: 44%;
+  margin: 0 auto;
+  border: none;
+  color: white;
+}
+
+/*** */
+
+.bgtwo {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  background-color: rgb(206, 206, 206);
+}
+
+.wrapper {
+  width: 20%;
+  margin: 0 auto;
+  color: white;
+}
+
+.wrapper > h2 {
+  font-weight: lighter;
+  margin-bottom: 5vw;
+}
+
+label {
+  display: block;
+}
+
+label > input[type="radio"] {
+  display: block;
+  width: 1.5vw;
+  position: relative;
+  bottom: 1vw;
+  height: 1.5vw;
+  margin-left: 11vw;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: gray;
+}
+
+.bgthree {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 3vw;
+}
+
+.ordersummary {
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "roboto";
+  font-weight: lighter;
+  line-height: 2.5vw;
+}
+
+.ordersummary > h2 {
+  margin-bottom: 3vw;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+}
+
+.button {
+  position: relative;
+  top: 6vw;
+  left: 1vw;
+  font-size: 1vw;
+  width: 50%;
+  margin: 0 auto;
+  border: 0.1vw solid rgb(156, 156, 156);
+  border-radius: 1vw;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.3vw;
+  font-family: "helvetica neue";
+  background-color: rgba(255, 255, 255, 0.336);
+  margin-bottom: 33vw;
+}
+
+.received {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  bottom: 11vw;
+  position: relative;
+}
+
+.pwrapper {
+  margin: 0 auto;
+  width: 33%;
+}
+
+.received > h2 {
+  font-size: 3.3vw;
+  font-weight: lighter;
+  font-family: "helvetica neue";
+  margin-bottom: 4vw;
+}
+
+.shoppingbag {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.row1 > img {
+  width: 22vw;
+  flex: 1;
+}
+
+.row2 {
+  flex: 1;
+  left: 5vw;
+  position: relative;
+}
+
+.ordersummary {
+  margin-top: 5vw;
+}
+
+.maintextr {
+  position: relative;
+  bottom: 10vw;
+}
+
+.buttonlinks {
+  position: relative;
+  bottom: 11vw;
   text-decoration: none;
 }

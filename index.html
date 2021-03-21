@@ -18,8 +18,6 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/media.css" />
-    <link rel="stylesheet" href="styles/index2.css" />
     <meta name="description" content="Rainydays | Home page" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale-1.0" />
@@ -43,55 +41,111 @@
 
   <body>
     <header>
-      <nav class="topnav">
-        <a href="index.html"
-          ><img src="images/logo.png" alt="Rainydays logo"
-        /></a>
-        <a href="search.html" class="topiconlink"
-          ><i class="fas fa-search"></i
-        ></a>
-        <a href="login.html" class="topiconlink"><i class="fas fa-user"></i></a>
-        <a href="emptycart.html" class="topiconlink"
-          ><i class="fas fa-shopping-cart"></i
-        ></a>
-      </nav>
-      <nav class="bottomnav">
+      <nav class="navbar">
         <ul>
           <li>
-            <a href="index.html" class="bottomnavlinks activebottomnav">Home</a>
+            <div class="shopnav"><a href="shop.html">Shop</a></div>
           </li>
-          <li><a href="shop.html" class="bottomnavlinks">Shop</a></li>
-          <li><a href="about.html" class="bottomnavlinks">About</a></li>
-          <li><a href="contact.html" class="bottomnavlinks">Contact</a></li>
+          <li>
+            <div class="navbarlogo">
+              <a href="index.html"><img src="images/logo2.png" class="nlogo" /></a>
+            </div>
+          </li>
+          <li class="rightli">
+            <div class="rightside">
+              <ul>
+                <li>
+                  <a href="#"><i class="fas fa-search"></i></a>
+                </li>
+                <li><a href="login.html">Account</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="shoppingbag.html">Cart</a></li>
+              </ul>
+            </div>
+          </li>
         </ul>
       </nav>
     </header>
-    <a href="contact.html" class="faenvelope"
-      ><i class="far fa-envelope"></i
-    ></a>
+
     <main>
-      <div class="textfrontpage">
-        <h1>20% <span class="off">off</span></h1>
-        <h2>on all rainjackets!</h2>
-        <p>Autumn is finally here</p>
-        <p class="offer">Offer lasts until November 1</p>
-        <a href="shop.html">Shop now!</a>
-        <h3>Free delivery on all orders</h3>
+      <i class="fas fa-envelope fixedenvelope" onclick="location.href='contact.html'"></i>
+      
+      <div class="main">
+        <img src="/images/index2.jpg" />
+        <div class="twntyoff">
+          <div class="border"></div>
+          <p>20% off on all rainjackets</p>
+          <div class="bordertwo"></div>
+          <div class="buttonindex">
+            <div class="buttonwomen"><a href="shop.html">Women clothing</a></div>
+            <div class="buttonmen"><a href="shop.html">Men clothing</a></div>
+          </div>
+        </div>
       </div>
+      <div class="shopnow" onclick="location.href='shop.html'">
+        <div class="shopnowimg"><img src="images/index3.jpg" /></div>
+        <div class="shopnowtext">
+          <div class="line"></div>
+          <i class="fas fa-arrow-right"></i>
+          <p>Shop now</p>
+          <div class="linetwo"></div>
+        </div>
+      </div>
+
+      <div class="footers">
+        <div class="welcome">
+          <p>
+            Welcome! Rainydays offers a variaty of rainjackets in high quality.
+            Text, text text text.
+          </p>
+        </div>
+        <div class="footerline"></div>
+        <div class="footersymbols">
+          <div class="symbolsbox">
+            <i class="fas fa-truck"></i>
+            <p>Fast shipping</p>
+          </div>
+          <div class="symbolsbox">
+            <i class="fas fa-lock"></i>
+            <p>Secure payment</p>
+          </div>
+          <div class="symbolsbox">
+            <i class="fas fa-box"></i>
+            <p>Free returns</p>
+          </div>
+          <div class="symbolsbox">
+            <i class="fas fa-shopping-bag"></i>
+            <p>Popular products</p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="flexfooter">
+        <div class="logofooter"><img src="/images/logo2.png" /></div>
+        <div class="contact">
+          <div class="footersymbolstwo cursor" onclick="location.href='contact.html'">
+            <i class="fas fa-envelope"></i>
+            <p>Send us a message</p></a>
+          </div>
+          <div class="footersymbolstwo margin">
+            <i class="fab fa-facebook"></i>
+            <p>Follow us on facebook</p></p>
+          </div>
+        </div>
+        <div class="sitemap">
+          <ul>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="shop.html">Women clothing</a></li>
+            <li><a href="shop.html">Men clothing</a></li>
+            <li><a href="shoppingbag.html">Shopping cart</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Account</a></li>
+          </ul>
+        </div>
+        </div>
+      </footer>
     </main>
-    <footer>
-      <img src="images/logo2.png" alt="Rainydays logo" />
-      <ul class="footerlinks">
-        <li><a href="shop.html" class="footerlinks">Shop</a></li>
-        <li><a href="contact.html" class="footerlinks">Contact us</a></li>
-        <li><a href="about.html" class="footerlinks">About us</a></li>
-      </ul>
-      <ul class="footericonstext">
-        <li>Privacy policy</li>
-        <li>Terms & conditions</li>
-        <li>Shipping information</li>
-      </ul>
-      <div class="footerbottom"></div>
-    </footer>
   </body>
+
+  <script src="/js/index.js"></script>
 </html>
